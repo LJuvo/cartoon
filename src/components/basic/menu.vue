@@ -7,7 +7,7 @@
       :class="{'basic-item':true,'basic-active':item.checked}"
       @click="onCheckedMenu(item.path)"
     >
-      <Icon size="24" :type="item.icon" />
+      <!-- <Icon size="24" :type="item.icon" /> -->
       <span>{{item.name}}</span>
     </a>
   </div>
